@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<autofac defaultAssembly="InyeccionConversionJavaCDIviaXML">
+  
+  <components name="0">
+    <type>InyeccionConversionJavaCDIviaXML.BMWAutoService</type>
+    <injectProperties>true</injectProperties>
+    <instanceScope>singleinstance</instanceScope>
+  </components>
+
+  <components name="1">
+    <type>InyeccionConversionJavaCDIviaXML.FordAutoService</type>
+    <injectProperties>true</injectProperties>
+    <instanceScope>singleinstance</instanceScope>
+  </components>
+
+  <components name="2">
+    <type>InyeccionConversionJavaCDIviaXML.HondaAutoService</type>
+    <injectProperties>true</injectProperties>
+    <instanceScope>singleinstance</instanceScope>
+  </components>
+  
+</autofac>
